@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fluid Agent</string>
+    <string name="main_activity_name">Fluid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile_settings">Profile Settings</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_english_language">English</string>
+    <string name="menu_arabic_language">Arabic</string>
+    <string name="language_preferences">Language Preferences</string>
+    <string name="menu_logout">Log out</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_patient">Choose Patient</string>
+    <string name="customer_MRN_txt">MRN</string>
+    <string name="name_txt">name</string>
+    <string name="scheduled_time_txt">Scheduled</string>
+    <string name="expected_time_txt">Expected</string>
+    <string name="checkin_time_txt">CheckIn</string>
+    <string name="arrival_time_txt">Arrival</string>
+    <string name="calling_time_txt">Calling</string>
+    <string name="when_there_is_no_time_txt">Not yet.</string>
+    <string name="when_there_is_no_scheduled_time">Not booked.</string>
+    <string name="customer_name_txt">customer name</string>
+    <string name="customer_picture">customer picture</string>
+    <!-- strings for login page -->
+    <string name="prompt_email">Mail</string>
+    <string name="prompt_password">Password</string>
+    <string name="welcome_back_txt">Welcome To Fluid!</string>
+    <string name="login_with_google_account">Log in with google account</string>
+    <string name="no_internet_image">no internet image</string>
+    <string name="Oh_no_string">Oh no!</string>
+    <string name="no_internet_txt">No internet found. Check your internet connection and try again.</string>
+    <string name="retry_btn">Retry</string>
+    <string name="error_while_login">Error While log in, Please retry again</string>
+    <string name="no_location_available">There is NO current Location available</string>
+    <string name="server_error_text">Failed to load data</string>
+
+    <string name="no_customer_in_current_location">There is no currently appointments at this clinic</string>
+    <string name="error_all_customers_arrived">Error, All customers already arrived.</string>
+    <string name="error_no_customers_arrived">Error, no customers arrived to be called.</string>
+    <string name="error_no_customer_called">Error, There is no customer called to be checked in.</string>
+    <string name="error_call_when_there_is_customer_checked_in">Error, there is a customer didn\'t check out yet, you can\'t call anyone</string>
+    <string name="error_connection_whle_retrieve_data">There is a connection error, Try agian later.</string>
+    <string name="error_no_data_returned">There is no appointments in current Location.</string>
+    <string name="error_no_data_found" translatable="false">no data found</string>
+    <string name="copy_write_theta_techno">POWERED BY THETA.</string>
+    <string name="ok">OK</string>
+    <string name="nurse_image">nurse image</string>
+    <string name="Appointment_details">Appointment Details</string>
+    <string name="login">Log in</string>
+    <string name="locations_activity">Locations</string>
+    <string name="status_no_data_found" translatable="false">no data found</string>
+    <string name="request_id_token" translatable="false">815187245291-7e4grr42vi5g1f166ckac4hhfp1m93c6.apps.googleusercontent.com</string>
+    <string name="error_email_not_found">This email isn\'t registered yet, please enter a valid email.</string>
+
+</resources>
