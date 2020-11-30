@@ -29,10 +29,10 @@
                 android:id="@+id/tab_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:tabMode="scrollable"
+                app:tabGravity="fill"
                 android:scrollbarAlwaysDrawHorizontalTrack="true"
                 android:theme="@style/AppTheme.PopupOverlay"
-                app:tabGravity="fill" />
+                />
 
 
         </com.google.android.material.appbar.AppBarLayout>

@@ -86,27 +86,19 @@ public class LoginActivity extends AppCompatActivity {
                             // Log
                             Log.i(TAG, "device token : " + token);
                             Log.i(TAG, "account : " + account.getDisplayName() + " : email " + account.getEmail() + "account id " + account.getId() + "account image url " + account.getPhotoUrl().getPath());
-                            userViewModel.createUser(account.getEmail(), account.getGivenName(), account.getFamilyName(),
-                                    account.getPhotoUrl().getPath(), account.getDisplayName(), token,
-                                    new OnDataChangedCallBackListener<Boolean>() {
-                                        @Override
-                                        public void onResponse(Boolean dataChanged) {
-                                            if(dataChanged) {
+
                                                 userViewModel.getUserData(account.getEmail().toUpperCase(), PreferenceController.getInstance(LoginActivity.this).get(PreferenceController.LANGUAGE).toUpperCase(), new OnDataChangedCallBackListener<Boolean>() {
                                                     @Override
                                                     public void onResponse(Boolean dataChanged1) {
                                                         if (dataChanged1){
                                                             redirectToMain();
                                                         }
+                                                        else {
+                                                            Toast.makeText(LoginActivity.this, R.string.error_email_not_found,Toast.LENGTH_SHORT).show();
+                                                        }
                                                     }
                                                 });
-                                            }
-                                            else {
-                                                Toast.makeText(LoginActivity.this, R.string.error_email_not_found,Toast.LENGTH_SHORT).show();
-                                            }
 
-                                        }
-                                    });
 
                         }
                     });

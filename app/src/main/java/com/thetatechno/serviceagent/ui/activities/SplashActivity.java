@@ -44,17 +44,12 @@ public class SplashActivity extends BaseActivity {
     }
 
     public void redirectToMain() {
-        if (true){//Agent
+
             Intent intent = new Intent(SplashActivity.this, MainAgentActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();
-        }else {//Provider
-            Intent intent = new Intent(SplashActivity.this, MainProviderActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(intent);
-            finish();
-        }
+
 
     }
 

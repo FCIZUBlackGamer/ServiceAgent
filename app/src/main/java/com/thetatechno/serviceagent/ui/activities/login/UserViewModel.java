@@ -38,6 +38,7 @@ public class UserViewModel {
         userRepository.getUserData(email, langId, new UserHandler() {
             @Override
             public void onUserAddedHandler(StatusModel returnedStatus) {
+                onDataChangedCallBackListener.onResponse(false);
             }
 
             @Override

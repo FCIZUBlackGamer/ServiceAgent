@@ -253,6 +253,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "189285446458-qi16og6dgkoalgtdlm8seit6f63a1nil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thetatechno.serviceagent",
+            "certificate_hash": "99e6f96b047b8d4574fd11ac8a9ab29ff2183e04"
+          }
+        },
+        {
           "client_id": "189285446458-6nk44v3fieibfe67hohug83f12cjoi4g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

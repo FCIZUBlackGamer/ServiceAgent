@@ -30,13 +30,9 @@ public class AppointmentListAdapter extends RecyclerView.Adapter<AppointmentList
     Context mContext;
     List<Appointement> myItems;
     private final String APPOINTMENT = "appointment";
-    private OnCallButtonClickedListener onCallButtonClickedListener;
 
     public AppointmentListAdapter(Context context) {
         mContext = context;
-        if (context instanceof MainAgentActivity)
-            onCallButtonClickedListener = (OnCallButtonClickedListener) context;
-
     }
 
     public void setItems(List<Appointement> items) {

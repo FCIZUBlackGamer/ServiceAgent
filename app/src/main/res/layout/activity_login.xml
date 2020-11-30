@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <data>
-
-    </data>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:id="@+id/login_layout"
-        android:background="@color/colorWhite"
-        android:layout_height="match_parent">
+    android:id="@+id/login_layout"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
         <!--    <androidx.appcompat.widget.Toolbar-->
         <!--        android:id="@+id/login_toolbar"-->
@@ -62,4 +55,3 @@
             app:layout_constraintTop_toBottomOf="@+id/welcome_back_txt" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</layout>
